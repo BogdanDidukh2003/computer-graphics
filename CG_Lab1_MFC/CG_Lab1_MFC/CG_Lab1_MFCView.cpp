@@ -62,8 +62,12 @@ void CCGLab1MFCView::OnDraw(CDC* pDC)  // Device Context
 	if (!pDoc)
 		return;
 
-	// TODO: add draw code for native data here
-	drawDiode(pDC, 100, 100, 50);
+	CRect rect;
+	GetClientRect(rect);
+	CPoint center = rect.CenterPoint();
+	int width = 50, lineWidth = 50;
+
+	drawDiode(pDC, center.x - lineWidth - width / 2, center.y - width / 2, width, lineWidth);
 }
 
 void drawDiode(CDC* pDC, const int& x, const int& y, const int& width, const int& lineWidth) {
