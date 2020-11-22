@@ -9,3 +9,7 @@ Drawing of a diode using MFC library
 ### Lab2
 
 Plotting a function
+
+### Lab3
+
+Drawing a line by Xaolin Wu's line algorithm
