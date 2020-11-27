@@ -13,3 +13,7 @@ Plotting a function
 ### Lab3
 
 Drawing a line by Xaolin Wu's line algorithm
+
+### Lab4
+
+Animation of rotating ellipse
